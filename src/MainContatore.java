@@ -1,9 +1,9 @@
 
-public class MainContatore extends Thread {
+public class MainContatore {
     public static void main(String[] args)
     {
 
-        contatore c = new contatore(100);
+        Contatore c = new Contatore(100);
         boolean e;
         int lim;
 
@@ -12,7 +12,7 @@ public class MainContatore extends Thread {
         for(int i=0;i<lim+2;i++){
             e=c.isError();
             c.inc();
-            System.out.println("Il valore attuale è: "+c.getValve);
+            System.out.println("Il valore attuale è: "+c.getValue());
             System.out.println("Lo stato interno è: "+e);
         }
 
