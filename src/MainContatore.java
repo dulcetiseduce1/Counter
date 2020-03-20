@@ -1,6 +1,7 @@
 
-public class MainContatore {
-    public static void main(String[] args){
+public class MainContatore extends Thread {
+    public static void main(String[] args)
+    {
 
         contatore c = new contatore(100);
         boolean e;

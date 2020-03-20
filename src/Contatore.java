@@ -1,10 +1,11 @@
+
 public class Contatore {
     private int valoreAttuale;
     private int valoreMassimo;
     private boolean errore;
 
-    public contatore(int valmax) {
-        valoreAttuale = 0
+    public Contatore(int valmax) {
+        valoreAttuale = 0;
         valoreMassimo = valmax;
         errore = false;
     }
