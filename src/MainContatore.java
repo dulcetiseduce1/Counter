@@ -18,3 +18,5 @@ public class MainContatore {
         c.reset();
     }
 }
+
+//main
